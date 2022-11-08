@@ -1,0 +1,117 @@
+body {
+    background-image: url(images/123456789.jpg);
+    background-size: 1280px 630px;
+}
+.game-card {
+    height: 100vh;
+    font-family: 'Open Sans', monospace;
+    font-size: 20px;
+}
+.card-header {
+    background-image: url(images/header.png);
+    background-size: 400px 80px;
+    color: rgb(255, 54, 208);
+    text-shadow:
+      0 0 7px rgb(251, 247, 250),
+      0 0 10px rgb(244, 152, 78),
+      0 0 21px rgb(218, 156, 93),
+      0 0 42px #7404a0,
+      0 0 82px #7404a0,
+      0 0 92px #7404a0,
+      0 0 102px #7404a0,
+      0 0 151px #7404a0;
+      height: 10vh;
+      font-family: 'Сomic Sans MS', cursive;
+      font-size: 25px;
+}
+.card-footer {
+    background-image: url(images/footer.png);
+    background-size: 400px 80px;
+}
+.card-body {
+    background-color: rgb(243, 230, 246);
+}
+.form-group {
+    margin-inline: auto;
+    padding: 10px;
+    width: auto;
+}
+#btnTobegin {
+    font-family: 'Сomic Sans MS', cursive;
+    font-weight: 900;
+    letter-spacing: 0.3em;
+    background-color: #080808;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-shadow:
+      0 0 7px rgb(251, 247, 250),
+      0 0 10px rgb(240, 6, 205),
+      0 0 21px rgb(225, 121, 18),
+      0 0 42px #8946a3,
+      0 0 82px #8946a3,
+      0 0 92px #8946a3,
+      0 0 102px #8946a3,
+      0 0 151px #8946a3;
+}
+#btnPlay {
+    font-family: 'Сomic Sans MS', cursive;
+    font-weight: 900;
+    letter-spacing: 0.3em;
+    background-color: #080808;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-shadow:
+      0 0 7px rgb(251, 247, 250),
+      0 0 10px rgb(240, 6, 205),
+      0 0 21px rgb(225, 121, 18),
+      0 0 42px #8946a3,
+      0 0 82px #8946a3,
+      0 0 92px #8946a3,
+      0 0 102px #8946a3,
+      0 0 151px #8946a3;
+}
+#btnProceed {
+    font-family: 'Сomic Sans MS', cursive;
+    font-weight: 900;
+    letter-spacing: 0.3em;
+    background-color: #080808;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-shadow:
+      0 0 7px rgb(251, 247, 250),
+      0 0 10px rgb(240, 6, 205),
+      0 0 21px rgb(225, 121, 18),
+      0 0 42px #8946a3,
+      0 0 82px #8946a3,
+      0 0 92px #8946a3,
+      0 0 102px #8946a3,
+      0 0 151px #8946a3;
+}
+#btnRetry {
+    text-decoration: none;
+    color: rgb(250, 2, 10);
+    font-size: 25px;
+    font-stretch: expanded;
+    text-shadow:
+      0 0 7px rgb(251, 247, 250),
+      0 0 10px rgb(242, 82, 218),
+      0 0 21px rgb(232, 153, 73),
+      0 0 42px #7404a0,
+      0 0 82px #7404a0,
+      0 0 92px #7404a0,
+      0 0 102px #7404a0,
+      0 0 151px #7404a0;   
+}
+#btnRetry:hover {
+    color: rgb(255, 121, 217);
+    font-weight: bold;
+}
+.hidden {
+    display: none;
+}
